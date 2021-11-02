@@ -1,6 +1,6 @@
 {
   "name": "keychain2bitwarden",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert a macOS Safari Keychain export csv to Bitwarden json",
   "bin": "./index.js",
   "scripts": {
