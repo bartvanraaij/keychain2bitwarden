@@ -7,13 +7,9 @@
     "keychain2bitwarden": "./index.js"
   },
   "scripts": {
-    "run": "",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bartvanraaij/keychain2bitwarden.git"
-  },
+  "repository":"git://github.com/bartvanraaij/keychain2bitwarden.git",
   "files": [
     "index.js"
   ],
@@ -31,10 +27,6 @@
     "url": "https://bartvanraaij.dev"
   },
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bartvanraaij/keychain2bitwarden/issues"
-  },
-  "homepage": "https://github.com/bartvanraaij/keychain2bitwarden#readme",
   "preferGlobal": true,
   "dependencies": {
     "csvtojson": "^2.0.10",
