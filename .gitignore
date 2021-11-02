@@ -1,0 +1,10 @@
+# IntelliJ
+.idea/
+
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+
