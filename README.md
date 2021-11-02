@@ -6,9 +6,9 @@ keychain2bitwarden is a js utility to convert a macOS Safari Keychain export csv
 Preferences → Passwords → … → Export passwords.  
 Save the csv file in a convenient place.
 
-2. Run keychain2bitwarden on that export file:
+2. Run `keychain2bitwarden convert` on that export file:
 ```shell
-npx keychain2bitwarden Passwords.csv > keychain.json
+npx keychain2bitwarden convert Passwords.csv > keychain.json
 ```
 Note that keychain2bitwarden outputs to stdout, so you'll need to redirect it's output to your file.
 
