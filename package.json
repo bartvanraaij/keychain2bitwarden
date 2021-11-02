@@ -2,10 +2,7 @@
   "name": "keychain2bitwarden",
   "version": "1.0.3",
   "description": "Convert a macOS Safari Keychain export csv to Bitwarden json",
-  "main": "./index.js",
-  "bin": {
-    "keychain2bitwarden": "./index.js"
-  },
+  "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
@@ -14,12 +11,15 @@
     "index.js"
   ],
   "keywords": [
+    "macos",
     "keychain",
     "bitwarden",
     "macos",
     "json",
     "csv",
-    "convert"
+    "convert",
+    "export",
+    "import"
   ],
   "author": {
     "name": "Bart van Raaij",
@@ -27,9 +27,12 @@
     "url": "https://bartvanraaij.dev"
   },
   "license": "ISC",
-  "preferGlobal": true,
   "dependencies": {
     "csvtojson": "^2.0.10",
     "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "npm-package-json-lint": "^5.4.1",
+    "npm-package-json-lint-config-default": "^3.0.0"
   }
 }
